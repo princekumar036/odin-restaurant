@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Fascinate&family=Jost:wght@300&display=swap');
+
+
+body {
+    margin: 0;
+    background-color: #333;
+    color: #ddd;
+    font-family: 'Jost', sans-serif;
+}
+
+header {
+    background-color: #222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 10rem;
+}
+header .logo {
+    font-family: 'Fascinate', cursive;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+nav {
+    display: flex;
+    gap: 5rem;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+nav li {
+    list-style: none;
+    cursor: pointer;
+}
+nav li.active {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+nav li:hover {
+    color: #fff;
+}
+
+section {
+    padding: 3rem 0 5rem;
+}
+
+.home {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    margin-bottom: 2rem;
+}
+
+.hero p {
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700;
+    font-size: 5rem;
+}
+
+.hero img {
+    max-height: 70vh;
+}
+
+.home button {
+    display: block;
+    margin: 0 auto;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700;
+    font-size: 2rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #222;
+    color: #ddd;
+    box-shadow: 0 0 5px #111;
+    padding: 1rem 3rem;
+    cursor: pointer;
+
+}
+
+.home button:hover {
+    background-color: #111;
+}
+
+
+/* MENU */
+
+.menu {
+    max-width: 900px;
+    margin: 5rem auto;
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: repeat(2, auto);
+}
+
+.menu * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu-item {
+    box-shadow: 0 0 10px #222;
+    padding: 10px;
+}
+
+.menu-item div {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.menu img {
+    width: 100%;
+}
+
+/* CONTACT */
+
+.contact {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.contact div {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    align-items: center;
+    font-size: 1.25rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.contact span, i {
+    display: block;
+}
+
+.contact i {
+    font-size: 2rem;
+}
