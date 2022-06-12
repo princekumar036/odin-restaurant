@@ -32,8 +32,7 @@ function changeMainContent(tabName, pos) {
 }
 changeMainContent('Home', 1)
 
-// console.log(MAIN.firstChild.classList)
-// On Home Button click
+
 if (MAIN.firstChild.classList.contains('home')) {
     console.log('OK')
     const btn = document.querySelector('button')
